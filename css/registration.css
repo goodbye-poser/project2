@@ -88,7 +88,7 @@ section h3 {
 
 .coursedata_description_button {
   width: 100%;
-  clear: all;
+/*  clear: all; */
   display: block;
   text-align: center;
   border: none;
@@ -113,7 +113,7 @@ section h3 {
   .img576, .img768 {
     display: none;
   }
-  
+
   .registration_option, .registered_course {
     width: 300px;
     border-radius: 3px;
@@ -121,7 +121,7 @@ section h3 {
     padding-right: 3px;
     margin: auto;
   }
-  
+
   #available_courses, #registered_courses, #weekly_schedule, #course_searchbars {
     padding-left: 3px;
     padding-right: 3px;
@@ -138,11 +138,11 @@ section h3 {
   html {
     font-size: 1em;
   }
-  
+
   .img576 {
     display: block;
   }
-  
+
   .img360, .img768 {
     display: none;
   }
@@ -154,7 +154,7 @@ section h3 {
     padding-right: 4px;
     margin: auto;
   }
-  
+
   #available_courses, #registered_courses, #weekly_schedule, #course_searchbars {
     padding-left: 4px;
     padding-right: 4px;
@@ -171,7 +171,7 @@ section h3 {
   html {
     font-size: 1.333em;
   }
-  
+
   .img768 {
     display: block;
   }
@@ -179,7 +179,7 @@ section h3 {
   .img360, .img576  {
     display: none;
   }
-  
+
   .registration_option, .registered_course {
     max-width: 533px;
     border-radius: 5px;
@@ -187,7 +187,7 @@ section h3 {
     padding-right: 5px;
     margin: auto;
   }
-  
+
   .registration_wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -195,7 +195,7 @@ section h3 {
     max-width: 1100px;
     margin: auto;
   }
-  
+
   #available_courses {
     grid-column: 1 / 1;
     grid-row: 3 / 3;
@@ -203,7 +203,7 @@ section h3 {
     padding-left: 5px;
     padding-right: 5px;
   }
-  
+
   #registered_courses {
     grid-column: 2 / 2;
     grid-row: 3 / 3;
@@ -211,7 +211,7 @@ section h3 {
     padding-left: 5px;
     padding-right: 5px;
   }
-  
+
   #weekly_schedule {
     grid-column: 2 / 2;
     grid-row: 2 / 2;
@@ -219,7 +219,7 @@ section h3 {
     padding-left: 5px;
     padding-right: 5px;
   }
-  
+
   #course_searchbars {
     grid-column: 1 / 1;
     grid-row: 2 / 2;
@@ -227,6 +227,6 @@ section h3 {
     padding-left: 5px;
     padding-right: 5px;
   }
-  
- 
+
+
 }
